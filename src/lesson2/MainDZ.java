@@ -1,3 +1,5 @@
+package lesson2;
+
 public class MainDZ {
     public static void main(String[] args) {
         System.out.println(calculate(1, 2, 3, 4));
@@ -44,16 +46,16 @@ public class MainDZ {
         return (year % 100 != 0) && (year % 4 == 0) || (year % 400 == 0);
     }
 
-    public static void main(String[] args) {
-        byte b = 127;
-        short s = 3100;
-        int i = 12345;
-        long l = 43214L;
-        char c = 65;
-        float f = 1234.5678f;
-        double d = 5678.1234;
-        boolean boo = true;
-        String str="Fancy String";
 
-    }
+    byte b = 127;
+    short s = 3100;
+    int i = 12345;
+    long l = 43214L;
+    char c = 65;
+    float f = 1234.5678f;
+    double d = 5678.1234;
+    boolean boo = true;
+    String str = "Fancy String";
+
 }
+
